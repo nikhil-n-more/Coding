@@ -1,0 +1,16 @@
+most important searching technique of all work on it and get your payback within a month. See you on your first algo.
+
+version 1:
+    find a target in sorted array
+    Algo:
+        while(low < high):
+            mid = low + (high - low)/2
+            if(arr[mid] == target):
+                break
+            if(arr[mid] < target):
+                low = mid+1;
+            else:
+                high = mid 
+
+version 2:
+    
